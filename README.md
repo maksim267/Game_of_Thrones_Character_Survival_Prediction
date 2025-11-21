@@ -1,19 +1,19 @@
-# Проект для предсказания выживания персонажей в мире Вестероса
-## План работы:
-- Часть 1. Анализ и предобработка данных:
-  - Предобработка данных (в датасете очень много пропусков, пришлось их обработать)
-  - Создание новых признаков (для упрощения работы модели были заменены некоторые старые признаки на новые)
-  - Анализ влияния признаков на целевую переменную (проверена влияние признаков на целевую пременную с помощью графиков)
-  - Перевод категориальных признаков в числовые (категориальные признаки не обрадотанные ранее мы преобразуем с помощью onehotencoding)
-- Часть 2. Обучение моделей:
-  - LogisticRegression
-  - RandomForestClassifier
-  - KNeighborsClassifier
-  - DecisionTreeClassifier
-  - AdaBoostClassifier
-  - CatBoostClassifier
-- Часть 3. Оценка качества моделей
-  - Оценка качества
-  - Обучение на всех именющихся данных
-  - Преобразование тестовых данных
-  - Пресказание на лучшей модели и submit.
+# A project to predict character survival in the world of Westeros
+## Work plan:
+- Part 1. Data analysis and preprocessing:
+- Data preprocessing (the dataset had many missing values, so we had to process them)
+- Creation of new features (to simplify the model, some old features were replaced with new ones)
+- Analysis of the influence of features on the target variable (the influence of features on the target variable was tested using graphs)
+- Converting categorical features to numerical ones (we converted previously unprocessed categorical features using one-hot coding)
+- Part 2. Model training:
+- LogisticRegression
+- RandomForestClassifier
+- KNeighborsClassifier
+- DecisionTreeClassifier
+- AdaBoostClassifier
+- CatBoostClassifier
+- Part 3. Model quality assessment
+- Quality assessment
+- Training on all available data
+- Transforming test data
+- Prediction on the best model and submitting.
